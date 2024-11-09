@@ -358,7 +358,15 @@ footer{
 /* INTRODUCTION */
 .header-img{
     border-radius: 3%;
+    box-shadow: 0px 4px 12px rgba(255, 255, 255, 0.425);
 }
+.smaller-img {
+    width: 70%;
+    border-radius: 15px;
+    background-color: white;
+        box-shadow: 0px 4px 12px rgba(255, 255, 255, 0.425);
+}
+
 .ommeg{
     border-radius:3% ;
     filter: grayscale(80%);
@@ -756,4 +764,44 @@ footer{
             margin-right: 10px;
         }
     }
+}
+
+/* Footer styling */
+.footer {
+    background-color: #1a1a1a;
+    /* Dark background for contrast */
+    color: #ffffff;
+    /* Light text for readability */
+    padding: 20px;
+    text-align: center;
+    font-size: 0.9rem;
+    /* Slightly smaller, sleek font size */
+}
+
+.footer a {
+    color: #e0e0e0;
+    /* Light gray for links */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer a:hover {
+    color: #4CAF50;
+    /* Soft hover color for emphasis */
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact {
+    width: 100px;
+    /* Adjust size of the image */
+    height: auto;
+}
+
+button-outline {
+    margin-top: 5px;
 }
