@@ -805,3 +805,10 @@ footer{
 button-outline {
     margin-top: 5px;
 }
+
+.cv-download
+{
+    filter:invert();
+    width: auto;
+    height: 15px;
+}
